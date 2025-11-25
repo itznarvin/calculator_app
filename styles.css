@@ -1,0 +1,29 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px
+    background-color: #eee;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.screen {
+  width: 70%;           /* full width of box */
+  height: 50px;          /* give it some height */
+  background-color: #000000ff; /* make it visible */
+  color: white;          /* text color */
+  font-size: 24px;       /* make numbers readable */
+  text-align: right;     /* align numbers to the right like a real calculator */
+  padding: 30px;         /* some space inside */
+  box-sizing: border-box; /* include padding in width */
+  border-radius: 10px;     /* optional, looks nicer */
+}
+
+.box button {
+    width: 50px;
+    height: 50px;
+    font-size:15px;
+    border-radius: 5px;
+}
